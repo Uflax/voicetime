@@ -1,0 +1,24 @@
+{
+  "name": "voicetime-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that tracks voice channel time for users",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "time",
+    "tracking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}
